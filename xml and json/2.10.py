@@ -1,7 +1,7 @@
 import json
 
 #1 read dât form json
-with open('C:/laptrinhaaa/python học trên lớp/Python Kỳ 3/Btap/2.xml and json/nhanvien.json', 'r') as f:
+with open('nhanvien.json', 'r') as f:
     data = json.load(f)
 
 # 2sumsố nhân viên
