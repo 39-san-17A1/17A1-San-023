@@ -2,10 +2,10 @@ import numpy as np
 
 
 with open('heights_1.txt', 'r') as file:
-    height = [float(line.strip()) for line in file if line.strip()]
+    height = [float(value.strip()) for line in file for value in line.split(',') if value.strip()]
 
 with open('weights_1.txt', 'r') as file:
-    weight = [float(line.strip()) for line in file if line.strip()]
+    weight =  [float(value.strip()) for line in file for value in line.split(',') if value.strip()]
 
 
 arr_height = np.array(height)
