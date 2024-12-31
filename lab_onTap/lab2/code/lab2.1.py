@@ -24,7 +24,7 @@ temp_diff = np.abs(np.diff(temperatures))  # Lấy giá trị tuyệt đối c�
 max_diff = np.max(temp_diff)
 max_diff_day = np.argmax(temp_diff) + 1  # Ngày bắt đầu của sự chênh lệch lớn nhất
 
-print(f"Sự chênh lệch nhiệt độ lớn nhất: {max_diff:.2f} độ C, giữa ngày {max_diff_day} và {max_diff_day + 1}")
+
 
 # 3. Áp Dụng Fancy Indexing
 # Ngày có nhiệt độ cao hơn 20 độ C
